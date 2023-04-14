@@ -46,24 +46,24 @@ body {
 
   }
 /* unvisited link */
-a:link {
+.flex-container a:link {
     color: inherit;
     text-decoration: none;
   }
   
   /* visited link */
-  a:visited {
+  .flex-container a:visited {
     color: inherit;
     text-decoration: none;
   }
   
   /* mouse over link */
-  a:hover {
+  .flex-container a:hover {
     color: #C8AEBD;
   }
   
   /* selected link */
-  a:active {
+  .flex-container a:active {
     color: inherit;
     text-decoration: none;
   }

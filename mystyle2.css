@@ -1,0 +1,78 @@
+body {
+    background-color: #C8AEBD;
+}
+
+.header {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 170px;
+    -webkit-text-fill-color: #F5F5F5; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 10px;
+    -webkit-text-stroke-color: #F5F5F5;
+}
+
+.header2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 170px;
+    -webkit-text-fill-color: #82215B; 
+    -webkit-text-stroke-width: 10px;
+    -webkit-text-stroke-color: #82215B;
+    margin-left: 10px;
+    margin-top: -195px;
+}
+
+.box {
+    font-family: 'Sedgwick Ave Display', cursive;
+   
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #593A4D;
+    justify-content: space-around;
+    margin-left: 60%;
+    align-items: center; 
+    width: 700px;
+    margin-top: -120px;
+   
+  }
+  
+  .flex-container > div {
+    background-color: #593A4D;
+    color: #F5F5F5;
+    margin: 15px;
+    font-size: 41px;
+    font-family: 'Sedgwick Ave Display', cursive;
+    flex-direction: row;
+
+  }
+/* unvisited link */
+a:link {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #C8AEBD;
+  }
+  
+  /* selected link */
+  a:active {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+
+  .text1 {
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: #F5F5F5;
+    margin-top: 20px;
+    margin-left: 28px;
+    font-size: 41px;
+  }
